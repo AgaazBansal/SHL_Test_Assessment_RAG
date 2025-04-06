@@ -1,0 +1,23 @@
+streamlit==1.32.2
+requests
+numpy
+pandas
+beautifulsoup4
+
+# HuggingFace ecosystem
+transformers==4.30.2
+sentence-transformers==2.2.2
+huggingface-hub==0.16.4
+torch  # optionally pin to torch==2.0.1 if needed for reproducibility
+
+# Chroma DB
+chromadb==0.4.24
+
+# LangChain and Groq
+langchain
+langchain-groq==0.0.1
+groq==0.4.1  # MUST be >= 0.4.1 to avoid 'proxies' init error
+
+# Flask & misc
+flask
+python-dotenv

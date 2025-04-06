@@ -1,0 +1,19 @@
+# 🐍 Python folders
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 🧪 Virtual Environment
+venv/
+
+# 🔐 Secrets
+.env
+
+# 💾 Local databases or output
+chroma_db/
+database.json
+
+# 📦 OS or editor-specific
+.DS_Store
+*.log
+
