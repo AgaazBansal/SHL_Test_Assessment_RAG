@@ -7,7 +7,7 @@ tokenizers==0.13.3
 transformers==4.30.2
 sentence-transformers==2.2.2
 huggingface-hub==0.16.4
-torch==2.0.1  # ✅ pin torch version to avoid native build issues
+torch==2.2.1  # ✅ pin torch version to avoid native build issues
 
 # Chroma DB
 chromadb==0.4.24
